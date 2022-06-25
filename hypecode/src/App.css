@@ -34,6 +34,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -63,4 +64,9 @@
   display: flex;
   flex-direction: row;
   width: 30%;
+}
+
+.app-taskBoard {
+  display: flex;
+  flex-direction: column-reverse;
 }
